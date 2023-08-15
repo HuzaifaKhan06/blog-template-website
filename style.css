@@ -1,0 +1,21 @@
+
+@media screen and (max-width: 992px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar-nav{
+        justify-content: center;
+        height: 34px;
+    }
+   
+    .d-flex{
+        justify-content: center;
+    }
+    .carousel-caption d-none d-md-block.btn{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 2%;
+        color: aqua;
+    }
+}
